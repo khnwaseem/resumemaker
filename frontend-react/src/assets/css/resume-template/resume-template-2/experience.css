@@ -1,0 +1,114 @@
+.resumet2ex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+.resumet2ex__head > h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.resumet2ex__head {
+  border-top: 2px solid #bfcee9;
+  align-self: flex-start;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+  width: 30%;
+
+}
+
+.resumet2ex__info {
+  border-top: 2px solid #bfcee9;
+  padding-top: 2rem;
+  font-size: 1.1rem;
+  width: 65%;
+}
+
+.resumet2ex__info__exp1__detail {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.resumet2ex__info__exp1__detail__info {
+  width: 80%;
+}
+
+
+.resumet2ex__info__exp1__comp__desi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+
+.resumet2ex__info__exp1 {
+  align-self:flex-start;
+}
+
+.resumet2ex__info__exp1__comp {
+  align-self: flex-start;
+}
+
+.resumet2ex__info__exp1__comp > h6 {
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  margin-right: 5px;
+}
+
+.resumet2ex__info__exp1__desi {
+  align-self: flex-start;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.resumet2ex__info__exp1__desi > p{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+.resumet2ex__info__year {
+  margin-bottom: 6px;
+  width: 20%;
+  margin-right: 2rem;
+}
+
+.resumet2ex__info__year > p {
+  font-size: 1.1rem;
+  font-weight: 500
+
+}
+
+
+.resumet2ex__info__jobdetail {
+ margin-bottom: 2rem;
+}
+
+.resumet2ex__info__jobdetail__point__buttlet {
+  background-color: black;
+  border-radius: 100%;
+  margin-right: 8px;
+  margin-top: 5px;
+  padding: 2px;
+
+}
+
+.resumet2ex__info__jobdetail__point  {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.resumet2ex__info__jobdetail__point > * {
+  margin-bottom: 8px;
+}
+
+.resumet2ex__info__jobdetail__point > p {
+  font-size: 1.2rem;
+  letter-spacing: 0.8px;
+}

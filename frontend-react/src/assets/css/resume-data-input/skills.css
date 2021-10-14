@@ -1,0 +1,59 @@
+.skill-form {
+  width: 70%;
+}
+
+
+
+.resume__input__data__skill_name {
+  width: 90%;
+  margin-right: 5px;
+}
+
+.resume__input__data__skill_level {
+  width: 90%;
+}
+.resume__input__data__select__level {
+  padding-top: 5px;
+  width: 100%;
+  color: grey;
+  margin-bottom: 3rem;
+  margin-top: 2px;
+}
+
+
+.resume__experience__button {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.resume__input__data__skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume__experience__button__previous,
+.resume__experience__button__add,
+.resume__experience__button__next
+{
+  background-color: #699999;
+  padding: 1rem;
+  color: #fff;
+  width:100%;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #699999;
+  font-size: 1.4rem;
+  letter-spacing: 0.4px;
+  width: 200px;
+}
+
+
+@media (max-width: 786px) {
+  .skill-form {
+    width: 100%;
+  }
+}

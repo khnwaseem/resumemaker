@@ -1,0 +1,128 @@
+.resume__input__data__contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contact-form  {
+  width: 50%;
+}
+
+
+.resume__input__data__header > h3{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  align-self: flex-start;
+  letter-spacing: 0.8px;
+}
+
+.resume__input__data__header > p {
+  font-size: 1.5rem;
+  margin-top:0.5rem;
+  margin-bottom:3rem
+}
+
+.resume__input__data__name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.resume__input__data__address2__city, .resume__input__data__address2__state,.resume__input__data__address2__zipcode,
+.resume__input__data__address,.resume__input__data__contactinfo__email,.resume__input__data__contactinfo__phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume__input__data__firstname{
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+
+.resume__input__data__lastname {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+
+.resume__input__data__inputvalue {
+  outline: none;
+  border: 1px solid #e0e0e0;
+  padding: 9px 2px;
+  width: 100%;
+  color: grey;
+  margin-bottom: 3rem;
+  margin-top:7px;
+}
+
+.resume__input__data__inputvalue::placeholder {
+  color: #e0e0e0;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.8px;
+}
+
+.resume__input__data__address2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.resume__input__data__address2__city {
+  width: 49%;
+  align-self: flex-start;
+}
+
+.resume__input__data__address2__zipcode {
+width: 24%;
+}
+
+.resume__input__data__address2__state {
+  width: 25%
+}
+
+.resume__input__data__contactinfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.resume__input__data__contactinfo__email {
+  width: 49%;
+}
+
+.resume__input__data__contactinfo__phone {
+  width: 50%;
+}
+
+
+.resume__input__data__label  {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  padding-bottom: 4px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.resume__contact__button {
+ width: 150px;
+}
+
+.resume__contact__button__next, .resume__contact__button__previous {
+   background-color: #699999;
+   padding: 1rem;
+   color: #fff;
+   width:100%;
+   border-radius: 3px;
+   outline: none;
+   border: 1px solid #699999;
+   font-size: 1.4rem;
+   letter-spacing: 0.4px;
+}

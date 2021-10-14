@@ -1,0 +1,11 @@
+.TRI2 {
+  width: 600px
+}
+
+.template-resume-2 {
+  display: flex;
+  justify-content: space-between;
+  color: #666665;
+  flex-direction: column;
+  padding: 1rem 3rem;
+}

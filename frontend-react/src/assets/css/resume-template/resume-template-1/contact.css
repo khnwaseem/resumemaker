@@ -1,0 +1,36 @@
+.resumet1c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.resumet1c__head > h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.resumet1c__head {
+  border-bottom: 3px solid #655555;
+  width: 45px;
+  align-self: flex-start;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.resumet1c__info {
+  font-size: 1.1rem;
+  letter-spacing: 0.4px;
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
+
+.resumet1c__info > ul > li {
+  display: block;
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.3px;
+}

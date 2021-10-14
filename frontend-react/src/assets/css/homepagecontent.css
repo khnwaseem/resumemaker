@@ -1,0 +1,303 @@
+
+                      /* HOME PAGE BANNER */
+
+.homepagecontent__banner {
+  display: flex;
+  flex-wrap: wrap;
+   margin-bottom: 2rem;
+
+}
+
+.homepagecontent__banner__text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem 3rem;
+}
+
+
+
+
+.homepagecontent__banner__text__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+
+.homepagecontent__banner__text__header > h2 {
+  align-self: center;
+  font-size: 5rem;
+  padding-bottom: 2rem;
+
+}
+
+.homepagecontent__banner__text__header > h3 {
+  font-size: 2.5rem;
+  color: #699999;
+}
+
+.homepagecontent__banner__text__content > * {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  letter-spacing: 0.6px;
+}
+
+.homepagecontent__banner__text__button {
+  align-self: flex-start;
+  padding-left: 2rem;
+  margin-top: 3rem;
+}
+
+.homepagecontent__banner__text__button > button {
+  background-color: #699999;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #699999;
+  font-size: 1.4rem;
+  letter-spacing: 0.4px;
+}
+
+.homepagecontent__banner__image {
+  width: 50%;
+}
+
+.homepagecontent__banner__image__img {
+  width: 100%;
+  object-fit: cover;
+  height: 85vh;
+  /* border-radius: 1rem; */
+}
+
+
+     /* MOBILE VIEW FOR HOMEPAGE BANNER */
+
+@media(max-width: 786px) {
+  .homepagecontent__banner__text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .homepagecontent__banner__text__header {
+    align-self: center;
+  }
+  .homepagecontent__banner__text__header > h3 {
+    align-self: center;
+  }
+
+  .homepagecontent__banner__text__button {
+    align-self: center;
+  }
+
+  .homepagecontent__banner__image {
+    width: 100%;
+  }
+}
+
+
+
+
+
+                /* THREE STEP TO CREATE REUME */
+
+
+.homepagecontent__createresumse {
+  background-image: url("https://khanwaseembucket.s3.ap-south-1.amazonaws.com/banner-background.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4rem;
+  filter: opacity(120%);
+
+}
+
+.homepagecontent__createresumse__header {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  color: #699999;
+  background-color: #fff;
+  padding: 1rem 3rem;
+}
+
+.homepagecontent__createresumse__detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   flex-wrap: wrap;
+   background-color: #fff;
+   padding: 2rem 0px;
+}
+
+.homepagecontent__createresumse__detail__template, .homepagecontent__createresumse__detail__addcontent, .homepagecontent__createresumse__detail__download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  flex-wrap: wrap;
+}
+
+.homepagecontent__createresumse__detail__template__icon > img {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+
+.homepagecontent__createresumse__detail__template__header > h3 {
+  font-size: 1.4rem;
+  padding: 1rem 0px;
+  align-self: center;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem 0px;
+  letter-spacing: 0.5px;
+  color: #666665
+}
+
+.homepagecontent__createresumse__detail__template__content {
+  width: 50%;
+  text-align: center;
+  color: #699999;
+  letter-spacing: 0.5px;
+  filter: brightness(70%);
+}
+
+.homepagecontent__createresumse__detail__template__content > p {
+  font-size: 1.3rem;
+  font-weight: 500
+}
+
+
+@media (max-width: 786px) {
+  .homepagecontent__createresumse__detail__template, .homepagecontent__createresumse__detail__addcontent, .homepagecontent__createresumse__detail__download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+  }
+}
+
+
+
+
+   /* SELECT TEMPLATE FOR RESUME BUILDER */
+
+.homepagecontent__selectresume__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #699999,#655555);
+  color: #efefef;
+  }
+
+  .homepagecontent__selectresume__header > h3 {
+    font-size: 3rem;
+    margin: 2rem 0rem;
+  }
+
+  .homepagecontent__selectresume__header > p {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+
+.homepagecontent__selectresume__templates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem 2rem;
+  margin-bottom: 5rem;
+}
+
+.homepagecontent__selectresume__resumebuilder {
+transition:transform .3s;
+box-shadow: 10px 10px 10px 10px #efefef
+}
+
+.homepagecontent__selectresume__resumebuilder:hover  {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.homepagecontent__selectresume__resumebuilder:hover .homepagecontent__selectresume__resumebuilder__button {
+  display: block
+}
+
+.homepagecontent__selectresume__resumebuilder__button {
+  position: relative;
+  left: 24%;
+   bottom: 200px;
+   background-color: #699999;
+   padding: 1rem;
+   color: #fff;
+   border-radius: 3px;
+   outline: none;
+   border: 1px solid #699999;
+   font-size: 1.4rem;
+   display: none;
+   letter-spacing: 0.4px;
+}
+
+
+.homepagecontent__selectresume__resumebuilder__button:hover {
+    cursor: pointer;
+}
+
+.homepagecontent__selectresume__resumebuilder {
+  width: 280px;
+  height: 450px;
+}
+
+.homepagecontent__selectresume__resumebuilder__image {
+  height: 90%;
+  width: 100%;
+}
+
+        /* MOBILE VIEW */
+
+@media (max-width: 786px) {
+.homepagecontent__selectresume__templates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+  right: 50%
+}
+}
+
+@media (max-width: 500px) {
+.homepagecontent__selectresume__templates {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+  right: 50%
+}
+.homepagecontent__createresumse {
+  padding: 0px
+}
+}

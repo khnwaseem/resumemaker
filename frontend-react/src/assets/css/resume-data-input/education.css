@@ -1,0 +1,198 @@
+
+.react-calendar {
+  border: 2px solid #699999;
+  padding: 5px 10px;
+  font-family: inherit;
+  margin-bottom: 2rem;
+  width: 250px;
+
+}
+
+ .react-calendar__navigation__prev-button {
+  background-color: white;
+  border: none;
+  color: #699999;
+  padding-left: 15px;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+.react-calendar__navigation__next-button {
+ background-color: white;
+ border: none;
+ color: #699999;
+ padding-right: 15px;
+ font-weight: 700;
+ font-size: 20px;
+
+}
+
+
+.react-calendar__year-view__months__month {
+  border: none;
+  background-color: #fff;
+  padding: 2px;
+  font-family: inherit;
+  font-weight: 500
+}
+
+.react-calendar__viewContainer {
+  margin: 5px 2px
+}
+
+.react-calendar__navigation__next2-button, .react-calendar__navigation__prev2-button{
+  display: none
+}
+
+.react-calendar__navigation__label {
+  background-color: white;
+  border:none;
+  padding: 2px;
+  font-family: inherit;
+  font-weight: 500;
+
+}
+
+.resume__input__data__date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.resume__input__data__job {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.resume__input__data__school_name {
+  width: 90%;
+  margin-right: 5px;
+}
+
+.resume__input__data__school_location {
+  width: 90%;
+}
+
+
+.resume__experience__button {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.resume__input__data__education__info__select_degree {
+  width: 90%;
+  margin-right: 5px;
+}
+.resume__input__data__education__info__field_of_study {
+  width: 90%;
+}
+
+.resume__input__data__education__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume__experience__button__previous,
+.resume__experience__button__add,
+.resume__experience__button__next
+{
+  background-color: #699999;
+  padding: 1rem;
+  color: #fff;
+  width:100%;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #699999;
+  font-size: 1.4rem;
+  letter-spacing: 0.4px;
+  width: 200px;
+}
+
+.resume__input__data__experience__date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+}
+
+
+
+.resume__input__data__address__start_month {
+width: 100%;
+margin-right: 5px;
+}
+
+.resume__input__data__address__end_month {
+  width: 100%
+}
+
+
+.resume__input__data__inputvalue__startmonth:hover {
+  cursor: pointer;
+}
+
+
+
+.resume__input__data__inputvalue__endmonth {
+  width: 100%;
+}
+
+.resume__input__data__inputvalue__endmonth:hover {
+  cursor: pointer;
+}
+
+.experience__detail {
+  padding: 2rem;
+   border: 1px solid #699999;
+   width: 100%;
+   margin-bottom: 2rem;
+}
+
+.experience__detail__about {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.experience__detail__about__employer > h4 {
+  padding: 0.5rem 0px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+
+.experience__detail__about__job_title {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience__detail__about__job_title > p {
+   font-size: 1.2rem;
+   padding-right: 1rem;
+   font-weight: 500;
+   letter-spacing: 0.7px;
+}
+
+.experience__detail__about__job_title > p > span {
+  font-size: 1.6rem;
+  padding-left: 2px;
+}
+
+.education-form {
+  width:60%
+}
+
+.experience__detail__about__summary {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 5px;
+  letter-spacing: 0.7px;
+}

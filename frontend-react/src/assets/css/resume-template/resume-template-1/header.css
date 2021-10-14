@@ -1,0 +1,36 @@
+.resumete1h {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-size: cover
+}
+
+.resumete1h__propic {
+  width: 150px;
+  height: 150px;
+}
+
+.resumete1h__name__desig {
+  display: flex;
+  flex-direction: column;
+  flex: 2 0 0;
+}
+
+.resumete1h__name {
+  font-size: 2rem;
+}
+
+.resumete1h__name > h2 {
+ letter-spacing: 1px;
+ text-transform: capitalize;
+}
+
+.resumete1h__designation > p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  padding-top: 1rem;
+  letter-spacing: 1px;
+}

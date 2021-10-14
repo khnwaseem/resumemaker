@@ -1,0 +1,54 @@
+.resumet2c__info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 1.5rem 1rem
+}
+
+.resumet2c__info__leftside {
+  align-self: flex-start;
+  width: 46%;
+}
+
+.resumet2c__info__rightside {
+  align-self: flex-start;
+  width: 46%;
+}
+
+  .resumet2c__info__leftside > p  {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  }
+
+  .resumet2c__info__leftside__title {
+    width: 30%;
+    align-self: flex-start;
+  }
+
+.resumet2c__info__leftside__text {
+  flex: 2 0 0;
+  text-align: left;
+  width:70%;
+}
+
+.resumet2c__info__leftside > p > span {
+  align-self: flex-start;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+
+}
+
+
+  .resumet2c__info__rightside > p  {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+  }
+
+.resumet2c__info__rightside > p > span {
+  font-size: 1.2rem;
+}

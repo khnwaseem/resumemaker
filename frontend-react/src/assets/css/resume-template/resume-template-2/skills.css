@@ -1,0 +1,60 @@
+.resumet2sk {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+.resumet2sk__head > h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.resumet2sk__head {
+  border-top: 2px solid #bfcee9;
+  align-self: flex-start;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+  width: 30%;
+}
+
+.resumet2sk__info {
+  border-top: 2px solid #bfcee9;
+  padding-top: 2rem;
+  font-size: 1.1rem;
+  width: 65%;
+}
+
+.resumet2sk__info__skilldetail {
+ margin-bottom: 2rem;
+ display: flex;
+}
+
+.resumet2sk__info__skilldetail > div {
+  width: 50%;
+}
+
+.resumet2sk__info__skilldetail__point__buttlet {
+  background-color: black;
+  border-radius: 100%;
+  margin-right: 8px;
+  margin-top: 5px;
+  padding: 2px;
+
+}
+
+.resumet2sk__info__skilldetail__point  {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.resumet2sk__info__skilldetail__point > * {
+  margin-bottom: 8px;
+}
+
+.resumet2sk__info__skilldetail__point > p {
+  font-size: 1.2rem;
+}

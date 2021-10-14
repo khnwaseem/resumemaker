@@ -1,0 +1,42 @@
+footer {
+  background-color: #699999;
+  position:relative;
+  bottom:0;
+  width: 100%;
+  padding: 3rem 0rem;
+}
+
+.footer__nav {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer__nav > div > ul > li {
+  display: block;
+  margin-bottom: 8px;
+}
+.footer__nav > div > ul > div > li {
+  display: block;
+  margin-bottom: 8px;
+  margin-right: 1rem;
+}
+
+.footer__nav > div > ul > div  {
+  display: flex;
+
+}
+
+.footer__nav > div > ul > li > a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.footer__nav > div > ul > li:nth-child(1) {
+  margin-bottom: 1.5rem;
+}
+.footer__nav > div > ul > li:nth-child(1) > a {
+font-size: 1.8rem;
+}

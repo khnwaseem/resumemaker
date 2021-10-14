@@ -1,0 +1,99 @@
+.resumet1sk {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.resumet1sk__info__skilldetail__level {
+align-self: flex-start;
+}
+
+.star-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-level, .star-remain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:5px;
+
+}
+
+ .star-level > span{
+width: 1rem;
+height: 1rem;
+border-radius: 50%;
+background-color: #373d48;
+display: block;
+margin-right: 0.5rem;
+border: 1px solid #373d48
+}
+
+.star-remain > span {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #d5d6d6;
+  display: block;
+  margin-right: 0.5rem;
+}
+
+.resumet1sk__head > h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  width: 200px;
+}
+
+.resumet1sk__head {
+  border-bottom: 3px solid #655555;
+  width: 45px;
+  align-self: flex-start;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.resumet1sk__info {
+  font-size: 1.1rem;
+  letter-spacing: 0.4px;
+   width: 100%;
+}
+
+.resumet1sk__info__skilldetail {
+ margin-bottom: 0.2rem;
+ display: flex;
+ align-items: flex-start;
+
+ justify-content: space-between;
+}
+
+.resumet1sk__info__skilldetail__point__buttlet {
+  background-color: black;
+  border-radius: 100%;
+  margin-right: 8px;
+  margin-top: 6px;
+  padding: 2px;
+
+}
+
+.resumet1sk__info__skilldetail__point  {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.resumet1sk__info__skilldetail__point > * {
+  margin-bottom: 8px;
+}
+
+.resumet1sk__info__skilldetail__point > p {
+  font-size: 1.4rem;
+  letter-spacing: 0.4px;
+}

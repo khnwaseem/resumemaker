@@ -1,0 +1,52 @@
+.slider__fontsize {
+  width: 50%;
+}
+
+.select__fontfamily {
+  width: 50%;
+  font-size: 1.3rem;
+  letter-spacing: 0.4px
+}
+
+
+.slider__fontsize > .rangeslider.rangeslider-horizontal {
+  height: 3px ;
+
+}
+
+.resume__formatting__content__slider__label {
+  width: 25%;
+  font-size: 1.4rem;
+  letter-spacing: 0.4px
+}
+
+.resume__formatting__content__slider__value {
+width: 25%;
+font-size: 1.4rem;
+letter-spacing: 0.4px
+}
+
+.slider__fontsize > .rangeslider-horizontal > .rangeslider__handle {
+  width: 16px;
+  height: 16px
+}
+
+ .rangeslider-horizontal > .rangeslider__handle:after {
+  display: none;
+}
+
+.resume__formatting__content__slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%
+}
+
+.rangeslider-horizontal > .rangeslider__labels > .rangeslider__label-item {
+  top: -5px;
+  background-color: #469296;
+  width: 7px;
+  height:7px;
+  border-radius: 50%;
+  font-size: 14px
+}

@@ -1,0 +1,39 @@
+.resumete2h {
+  background-color: #bfcee9;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  width: 100%;
+  background-size: cover
+}
+
+
+
+.resumete2h__name__desig {
+  display: flex;
+  flex-direction: column;
+  flex: 2 0 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumete2h__name {
+  font-size: 2.6rem;
+}
+
+.resumete2h__name > h2 {
+  text-transform: uppercase;
+ letter-spacing: 1px;
+ color: #000;
+}
+
+.resumete2h__designation > p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  letter-spacing: 1px;
+  color: #000;
+}

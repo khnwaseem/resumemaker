@@ -1,0 +1,63 @@
+.resume__page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.resume__leftside {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 2rem;
+
+}
+
+
+.resume__rightside {
+    width: 50%;
+    align-self: flex-start;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.resume__formatting__font {
+  border: 2px solid #699999;
+  margin: 2rem 0rem;
+  padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 960px) {
+  .resume__rightside {
+      width: 100%;
+      align-self: flex-start;
+    justify-content: center;
+   margin: 3rem 2rem 7rem 2rem;
+  }
+}
+
+.resume__add_section {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+  align-items: baseline;
+}
+
+.resume__add_section__language {
+  margin-bottom: 2rem;
+}
+
+.resume__add_section__language > button,.resume__add_section__othersection > button {
+  background-color: #fff;
+  border: 1px solid #699999;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  color: #699999;
+  letter-spacing: 0.4px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-family: 'raleway';
+  font-size: 1.4rem;
+}
