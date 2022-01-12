@@ -25,6 +25,7 @@ console.log(fontfamily)
        <div className="template-resume-1-rightSide">
        <Experience fontsize={fontsize}/>
             <Education fontsize={fontsize}/>
+
        </div>
      </div>
     </div>

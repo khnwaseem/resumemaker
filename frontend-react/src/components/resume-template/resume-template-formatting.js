@@ -2,6 +2,7 @@ import React, {useState,useEffect} from 'react'
 import Slider from 'react-rangeslider'
 import '../../assets/css/resume-template/resume-template-formatting.css'
 import 'react-rangeslider/lib/index.css';
+import { NavLink } from "react-router-dom";
 import Select from 'react-select'
 
 const ResumeFormatting = ({handleChange,fontsizes,fontfamily,handleSelectFontFamilyChange}) => {
@@ -72,13 +73,12 @@ const ResumeFormatting = ({handleChange,fontsizes,fontfamily,handleSelectFontFam
 
       <div className="resume__add_section">
         <div className="resume__add_section__language">
-          <button><span style={{fontSize: "2rem",paddingRight: "1rem"}}>+</span>Add Language</button>
+          <button><span style={{fontSize: "2rem",paddingRight: "1rem"}}>+</span><NavLink to="/resume/language/add" >Add Language</NavLink></button>
         </div>
         <div className="resume__add_section__othersection">
-          <button><span style={{fontSize: "2rem",paddingRight: "1rem"}}>+</span>Add Other Section</button>
+          <button><span style={{fontSize: "2rem",paddingRight: "1rem"}}>+</span><NavLink to="/resume/add-section" >Add Other Section</NavLink></button>
         </div>
       </div>
-
     </div>
   )
 }

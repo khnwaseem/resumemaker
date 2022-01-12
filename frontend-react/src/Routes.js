@@ -8,6 +8,7 @@ import Experience  from './components/resume-data-input/experience'
 import Education  from './components/resume-data-input/education'
 import Skill  from './components/resume-data-input/skills'
 import Summary  from './components/resume-data-input/summary'
+import Language  from './components/resume-data-input/addsection/language'
 
 
 const Routes  = () => {
@@ -23,6 +24,7 @@ const Routes  = () => {
          <Route exact component={Education} path='/resume/education/add' />
          <Route exact component={Skill} path='/resume/skill/add' />
          <Route exact component={Summary} path='/resume/summary/add' />
+         <Route exact component={Language} path='/resume/language/add' />
        </Layout>
       </Switch>
      </React.Fragment>

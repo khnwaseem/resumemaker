@@ -35,7 +35,7 @@ const Education = ({fontsize}) => {
                </div>
                <div className="resumet1e__info__edu1__fl__yr">
                  <div className="resumet1e__info__edu1__fl">
-                   <p style={{fontSize: fontsize + 'rem'}}>{edu.select_degree} -</p>
+                   <p style={{fontSize: fontsize + 'rem'}}>{edu.field_of_study} - {edu.select_degree}</p>
                    <p style={{fontSize: fontsize + 'rem'}}>{edu.school_location}</p>
                  </div>
                  <div className="resumet1e__info__edu1__yr">
