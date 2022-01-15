@@ -8,7 +8,6 @@ import { jsPDF } from "jspdf";
 import '../../assets/css/resume-template/resume-template-design.css'
 
 
-import "jspdf/dist/polyfills.es.js";
 
 const ResumeTemplate1 = (props) => {
 
